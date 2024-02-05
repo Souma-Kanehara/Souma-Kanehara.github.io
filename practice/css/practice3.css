@@ -1,0 +1,133 @@
+/* *{
+    border: 1px solid black;
+} */
+html {
+    font-size: 100%;
+  }
+body {
+    font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    font-size: 0.875rem;
+    color: #2a2a2a;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.7;
+ }
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+.head{
+    background-image: url(../img/mainvisual.jpg);
+    height: 100vh;
+    background-image: url(../img/mainvisual.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    position: relative;
+}
+#mag88{
+    position: absolute;
+    left: 90%;
+
+}
+.special{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.special-image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.item{
+    width: 48%;
+    position: relative;
+}
+.text{
+    max-width: 290px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+}
+.fashion{
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 520px;
+    margin-bottom: 80px;
+    
+}
+.fashion-title{
+    padding-top: 5rem;
+}
+.fashion-btn{
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    margin-top: 1rem;
+    display: inline-block;
+
+}
+.caan{
+    text-align: center;
+    width: 55%;    
+    display: flex;
+    margin: auto;
+    height: 500px;
+    justify-content: space-between;
+}
+.caan p{
+    text-align: left;
+}
+.sub-title{
+    margin-top: 20%;
+}
+.catalog-part{
+    justify-content: space-between;
+    width: 45%;
+}
+#antique{
+    margin-top: 5%;
+}
+#antique-btn{
+    margin-top: 10%;
+}
+#footer{
+    background-color: #333;
+    color: white;
+    padding: 7rem 0;
+    margin: auto;
+    
+}
+.footer-mag88{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2;
+    
+}
+.footer-title{
+    width: 33%;
+    font-size: 0.8rem;
+}
+#footer li::before {
+    content: "-";
+    margin-right: 5px;
+  }
